@@ -85,29 +85,33 @@ final class Glossary {
     /// Replaces any known glossary phrases inside a longer line (whole words only).
     /// Returns nil when nothing was replaced.
     func substitute(_ text: String) -> String? {
-        var line = text.replacingOccurrences(of: "\u{00A0}", with: " ")
-        var lower = line.lowercased().replacingOccurrences(of: "ё", with: "е")
-        guard lower.count == line.count else { return nil } // keep indices aligned
+        var chars = Array(text.replacingOccurrences(of: "\u{00A0}", with: " "))
+        // Lower-cased shadow copy used for matching; kept the same length as `chars`.
+        var low: [Character] = chars.map { c in
+            let l = String(c).lowercased().replacingOccurrences(of: "ё", with: "е")
+            return l.count == 1 ? Character(l) : c
+        }
         var replaced = false
         for (key, value) in phrases {
-            var searchStart = lower.startIndex
-            while let r = lower.range(of: key, range: searchStart..<lower.endIndex) {
-                let beforeOK = r.lowerBound == lower.startIndex || !lower[lower.index(before: r.lowerBound)].isLetter
-                let afterOK = r.upperBound == lower.endIndex || !lower[r.upperBound].isLetter
-                if beforeOK && afterOK {
-                    let lo = line.index(line.startIndex, offsetBy: lower.distance(from: lower.startIndex, to: r.lowerBound))
-                    let hi = line.index(lo, offsetBy: key.count)
-                    line.replaceSubrange(lo..<hi, with: value)
-                    let llo = lower.index(lower.startIndex, offsetBy: line.distance(from: line.startIndex, to: lo))
-                    lower.replaceSubrange(llo..<lower.index(llo, offsetBy: key.count), with: value.lowercased())
-                    guard lower.count == line.count else { return replaced ? line : nil }
-                    searchStart = lower.index(llo, offsetBy: value.count)
-                    replaced = true
-                } else {
-                    searchStart = lower.index(after: r.lowerBound)
+            let k = Array(key)
+            let v = Array(value)
+            guard k.count <= low.count else { continue }
+            var i = 0
+            while i + k.count <= low.count {
+                if low[i] == k[0] && Array(low[i..<(i + k.count)]) == k {
+                    let beforeOK = i == 0 || !low[i - 1].isLetter
+                    let afterOK = i + k.count == low.count || !low[i + k.count].isLetter
+                    if beforeOK && afterOK {
+                        chars.replaceSubrange(i..<(i + k.count), with: v)
+                        low.replaceSubrange(i..<(i + k.count), with: v)
+                        i += v.count
+                        replaced = true
+                        continue
+                    }
                 }
+                i += 1
             }
         }
-        return replaced ? line : nil
+        return replaced ? String(chars) : nil
     }
 }

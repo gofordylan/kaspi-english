@@ -6,6 +6,7 @@ import Translation
 enum SelfTest {
     @MainActor
     static func run() async -> Int32 {
+        setvbuf(stdout, nil, _IOLBF, 0)
         let samples = ["Переводы", "Мой Банк", "Платежи", "Перевести", "Между своими счетами", "Снять наличные"]
         let size = NSSize(width: 600, height: 80 * CGFloat(samples.count))
         let image = NSImage(size: size, flipped: true) { rect in
