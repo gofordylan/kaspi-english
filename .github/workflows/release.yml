@@ -27,6 +27,16 @@ jobs:
           if [[ "$GITHUB_REF" == refs/tags/v* ]]; then V="${GITHUB_REF_NAME#v}"; else V="0.0.0-dev"; fi
           scripts/build-app.sh "$V"
 
+      - name: Self-test (OCR + glossary on this runner)
+        run: |
+          "dist/Kaspi in English.app/Contents/MacOS/KaspiEnglish" --selftest
+
+      - name: Launch smoke test
+        run: |
+          open "dist/Kaspi in English.app"
+          sleep 10
+          if pgrep -x KaspiEnglish; then echo "App is running"; pkill -x KaspiEnglish; else echo "App exited or crashed"; ls ~/Library/Logs/DiagnosticReports/ || true; exit 1; fi
+
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
