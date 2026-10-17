@@ -1,0 +1,174 @@
+# Kazakh UI label | compact English
+Аударым | Transfers
+Аударымдар | Transfers
+Аудару | Transfer
+Төлемдер | Payments
+Төлем | Payment
+Төлеу | Pay
+Жеке Банк | My Bank
+Менің Банкім | My Bank
+Kaspi.kz-тегі Магазин | Shop on Kaspi.kz
+Мемлекеттік қызметтер | Government services
+Науқандар | Promotions
+Хабарландыру | Classifieds
+Хабарландырулар | Classifieds
+Хабарламалар | Messages
+Хабарлама | Message
+Тарих | History
+Қызметтер | Services
+Кіру | Sign in
+Тіркелу | Register
+Баптау | Settings
+Баптаулар | Settings
+Қосымшаның тілі | App language
+Тіл | Language
+Басты бет | Home
+Іздеу | Search
+Өз шоттарыңыз арасында | Between my accounts
+Kaspi клиентіне | To a Kaspi customer
+Өзге банктің картасына | To another bank's card
+Әлемнің кез келген банкінің картасына | To any card worldwide
+Телефон нөмірі | Phone number
+Телефон нөмірі бойынша | By phone number
+Карта нөмірі | Card number
+Шот нөмірі | Account number
+Алушы | Recipient
+Жіберуші | Sender
+Сома | Amount
+Соманы енгізіңіз | Enter amount
+Комиссия | Fee
+Комиссиясыз | No fee
+Тегін | Free
+Түсініктеме | Comment
+Растау | Confirm
+Растаңыз | Confirm
+Бас тарту | Cancel
+Болдырмау | Cancel
+Дайын | Done
+Әрі қарай | Next
+Жалғастыру | Continue
+Артқа | Back
+Жабу | Close
+Сақтау | Save
+Өзгерту | Edit
+Жою | Delete
+Қосу | Add
+Таңдау | Select
+Жіберу | Send
+Алу | Get
+Иә | Yes
+Жоқ | No
+Түсінікті | Got it
+Қайталау | Repeat
+Қайта көріңіз | Try again
+Жаңарту | Refresh
+Жүктелуде | Loading
+Сәтті | Success
+Орындалды | Completed
+Қате | Error
+Қаражат жеткіліксіз | Insufficient funds
+Барлығы | All
+Барлығын көру | See all
+Толығырақ | More details
+Бөлісу | Share
+Түбіртек | Receipt
+Төлем түбіртегі | Payment receipt
+Үзінді көшірме | Statement
+Шот | Account
+Шоттар | Accounts
+Карта | Card
+Карталар | Cards
+Менің карталарым | My cards
+Депозит | Deposit (savings)
+Жинақ депозиті | Savings deposit
+Несие | Loan
+Несиелер | Loans
+Сатып алуларға несие | Purchase loan
+Қолма-қол ақшаға несие | Cash loan
+Бөліп төлеу | Installments
+Ай сайынғы төлем | Monthly payment
+Келесі төлем | Next payment
+Өтеу | Repay
+Мерзімінен бұрын өтеу | Early repayment
+Бонустар | Bonuses (cashback)
+Қолжетімді | Available
+Қалдық | Balance
+Баланс | Balance
+Толтыру | Top up
+Шотты толтыру | Top up account
+Қолма-қол ақша алу | Withdraw cash
+Қолма-қол ақша | Cash
+Банкомат | ATM
+Бөлімшелер | Branches
+Мобильді байланыс | Mobile phone
+Интернет | Internet
+Коммуналдық қызметтер | Utilities
+Салықтар | Taxes
+Айыппұлдар | Fines
+Билеттер | Tickets
+Көлік | Transport
+Жолдар | Road tolls
+Тұрақ | Parking
+Білім беру | Education
+Сақтандыру | Insurance
+Қарыз | Debt
+Берешек | Debt
+Төлеуге | Due
+Автотөлем | Autopay
+Кіру коды | Access code (PIN)
+Кіру кодын енгізіңіз | Enter access code
+Кодты ұмыттыңыз ба? | Forgot code?
+SMS-тегі код | SMS code
+Кодты қайта жіберу | Resend code
+Фотоверификация | Photo verification
+Қауіпсіздік | Security
+Шығу | Sign out
+Себет | Cart
+Себетке | Add to cart
+Себетке қосу | Add to cart
+Тапсырыс | Order
+Тапсырыстар | Orders
+Менің тапсырыстарым | My orders
+Тапсырысты рәсімдеу | Checkout
+Рәсімдеу | Apply
+Жеткізу | Delivery
+Тегін жеткізу | Free delivery
+Өзі алып кету | Pickup
+Мекенжай | Address
+Қала | City
+Сатушы | Seller
+Баға | Price
+Жеңілдік | Discount
+Пікірлер | Reviews
+Сипаттамалары | Specifications
+Сүзгілер | Filters
+Сұрыптау | Sort
+Таңдаулылар | Favorites
+Қайтару | Return
+Анықтама | Certificate
+Анықтамалар | Certificates
+Құжаттар | Documents
+Шарт | Contract
+Қол қою | Sign
+Көмек | Help
+Қолдау қызметі | Customer support
+Чат | Chat
+Әуе билеттері | Flights
+Пойыз билеттері | Train tickets
+Қайдан | From
+Қайда | To
+Жолаушылар | Passengers
+Бүгін | Today
+Кеше | Yesterday
+Ертең | Tomorrow
+Күні | Date
+Мәртебесі | Status
+Мерзімі | Term
+Шарттар | Terms
+Сатып алу | Buy
+Сатып алулар | Purchases
+Шығыстар | Spending
+Кірістер | Income
+Операциялар | Transactions
+Хабарландыру беру | Post a listing
+Сертификаттар | Gift certificates

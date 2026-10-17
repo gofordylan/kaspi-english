@@ -1,0 +1,752 @@
+# Russian UI label | compact English. Lines starting with # are comments.
+# --- Main sections (verified in Kaspi sources, see kaspi-cheatsheet) ---
+Переводы | Transfers
+Перевод | Transfer
+Платежи | Payments
+Платеж | Payment
+Платёж | Payment
+Мой Банк | My Bank
+Магазин | Shop
+Магазин на Kaspi.kz | Shop on Kaspi.kz
+Kaspi QR | Kaspi QR (scan to pay)
+Kaspi Travel | Kaspi Travel (flights, trains)
+Госуслуги | Government services
+Государственные услуги | Government services
+Акции | Promotions
+Объявления | Classifieds
+Kaspi Гид | Kaspi Guide (help)
+Гид | Guide (help)
+Kaspi Maps | Kaspi Maps
+Сертификаты | Gift certificates
+Сертификат | Gift certificate
+Сообщения | Messages
+Сообщение | Message
+История | History
+Сервисы | Services
+Вход/Регистрация | Sign in / Register
+Вход / Регистрация | Sign in / Register
+Вход | Sign in
+Регистрация | Register
+Настройки | Settings
+Язык приложения | App language
+Язык | Language
+Главная | Home
+Меню | Menu
+Еще | More
+Ещё | More
+Поиск | Search
+Уведомления | Notifications
+Профиль | Profile
+Мой профиль | My profile
+Избранное | Favorites
+Частые | Frequent
+Корзина | Cart
+Заказы | Orders
+Мои заказы | My orders
+# --- Transfers ---
+Между своими счетами | Between my accounts
+Клиенту Kaspi | To a Kaspi customer
+На карту другого банка | To another bank's card
+На карту любого банка мира | To any card worldwide
+Международные переводы | International transfers
+Международный перевод | International transfer
+Перевести | Transfer
+Сохранить в Частые | Save to Frequent
+По номеру телефона | By phone number
+Номер телефона | Phone number
+По номеру карты | By card number
+Номер карты | Card number
+По номеру счета | By account number
+По IBAN | By IBAN
+Номер счета | Account number
+Номер счёта | Account number
+Счет получателя | Recipient's account
+Банк получателя | Recipient's bank
+Получатель | Recipient
+Отправитель | Sender
+Имя получателя | Recipient name
+Кому | To
+Откуда | From
+Куда | To
+Со счета | From account
+Со счёта | From account
+На счет | To account
+На счёт | To account
+С карты | From card
+На карту | To card
+Сумма | Amount
+Сумма перевода | Transfer amount
+Сумма платежа | Payment amount
+Введите сумму | Enter amount
+Комиссия | Fee
+Без комиссии | No fee
+Бесплатно | Free
+Комментарий | Comment
+Сообщение получателю | Message to recipient
+Назначение платежа | Payment purpose
+Перевод отправлен | Transfer sent
+Перевод выполнен | Transfer completed
+Перевод успешно выполнен | Transfer successful
+Деньги отправлены | Money sent
+Повторить перевод | Repeat transfer
+Повторить | Repeat
+Запросить деньги | Request money
+Запрос денег | Money request
+Шаблоны | Templates
+Шаблон | Template
+Сохранить шаблон | Save template
+Контакты | Contacts
+Выбрать из контактов | Choose from contacts
+Недавние | Recent
+Последние | Recent
+Курс | Exchange rate
+Курс валют | Exchange rates
+Обмен валют | Currency exchange
+Обмен валюты | Currency exchange
+Купить валюту | Buy currency
+Продать валюту | Sell currency
+Конвертация | Conversion
+Лимит | Limit
+Лимиты | Limits
+Лимит на переводы | Transfer limit
+Остаток лимита | Remaining limit
+Перевод по QR | Transfer by QR
+Переводы в другие банки | Transfers to other banks
+Kaspi Переводы | Kaspi Transfers
+Золотая Корона | Zolotaya Korona (money transfer)
+Western Union | Western Union
+# --- Payments ---
+Мобильная связь | Mobile phone
+Мобильный | Mobile
+Связь | Phone & internet
+Интернет | Internet
+Интернет и ТВ | Internet & TV
+ТВ | TV
+Телевидение | TV
+Коммунальные услуги | Utilities
+Коммуналка | Utilities
+Коммунальные платежи | Utility bills
+Налоги | Taxes
+Налоги и бюджет | Taxes & budget
+Штрафы | Fines
+Штрафы ПДД | Traffic fines
+Билеты | Tickets
+Транспорт | Transport
+Дороги | Road tolls
+Парковки | Parking
+Парковка | Parking
+Образование | Education
+Детский сад | Kindergarten
+Школа | School
+Медицина | Healthcare
+Страхование | Insurance
+Погашение кредитов | Loan repayment
+Погашение кредита | Loan repayment
+Игры | Games
+Онлайн-игры | Online games
+Развлечения | Entertainment
+Благотворительность | Charity
+Электроэнергия | Electricity
+Электричество | Electricity
+Газ | Gas
+Вода | Water
+Водоснабжение | Water supply
+Отопление | Heating
+Теплоснабжение | Heating
+Вывоз мусора | Garbage collection
+ОСИ | Building association (OSI)
+КСК | Housing cooperative (KSK)
+Лицевой счет | Customer account no.
+Лицевой счёт | Customer account no.
+Номер договора | Contract number
+Показания счетчика | Meter reading
+Показания счётчиков | Meter readings
+Задолженность | Debt
+Долг | Debt
+Начислено | Charged
+К оплате | Due
+Итого к оплате | Total due
+Итого | Total
+Оплатить | Pay
+Оплата | Payment
+Оплачено | Paid
+Оплатить все | Pay all
+Оплатить сейчас | Pay now
+Автоплатеж | Autopay
+Автоплатежи | Autopay
+Автоплатёж | Autopay
+Подключить автоплатеж | Set up autopay
+Мои платежи | My payments
+Мои квитанции | My bills
+Квитанция | Bill
+Квитанции | Bills
+Счет на оплату | Invoice
+Пополнить | Top up
+Пополнение | Top-up
+Пополнить баланс | Top up balance
+Пополнение счета | Account top-up
+Пополнить с карты другого банка | Top up from another bank's card
+Оператор | Carrier
+Тариф | Plan
+Баланс | Balance
+Баланс телефона | Phone balance
+ИИН | IIN (ID number)
+БИН | BIN (company ID)
+ИИН/БИН | IIN/BIN
+Госномер | License plate
+Номер авто | License plate
+Техпаспорт | Vehicle registration
+Водительское удостоверение | Driver's license
+Удостоверение личности | ID card
+Паспорт | Passport
+Пенсионные взносы | Pension contributions
+Социальные отчисления | Social contributions
+ОСМС | Health insurance (OSMS)
+ЕНПФ | Pension fund (ENPF)
+Налог на имущество | Property tax
+Налог на транспорт | Vehicle tax
+Земельный налог | Land tax
+Пошлина | State fee
+Госпошлина | State fee
+# --- My Bank: accounts, cards, deposits, loans ---
+Kaspi Gold | Kaspi Gold (main card)
+Kaspi Gold для ребенка | Kaspi Gold for a child
+Kaspi Gold для ребёнка | Kaspi Gold for a child
+Kaspi Red | Kaspi Red (installments)
+Kaspi Red+ | Kaspi Red+ (installments)
+Kaspi Депозит | Kaspi Deposit (savings)
+Депозит | Deposit (savings)
+Депозиты | Deposits
+Накопительный Депозит | Savings deposit
+Сберегательный Депозит | Fixed savings deposit
+Открыть депозит | Open a deposit
+Пополнить депозит | Top up deposit
+Снять с депозита | Withdraw from deposit
+Вознаграждение | Interest
+Ставка | Rate
+Годовая ставка | Annual rate
+ГЭСВ | Effective annual rate
+Доход | Income
+Начисленное вознаграждение | Interest earned
+Кредит на Покупки | Purchase loan
+Кредит Наличными | Cash loan
+Кредит | Loan
+Кредиты | Loans
+Мои кредиты | My loans
+Рассрочка | Installments (0%)
+Рассрочка 0-0-12 | Installments 0-0-12
+Рассрочка 0-0-24 | Installments 0-0-24
+Ежемесячный платеж | Monthly payment
+Ежемесячный платёж | Monthly payment
+Следующий платеж | Next payment
+Следующий платёж | Next payment
+Дата платежа | Payment date
+График платежей | Payment schedule
+Досрочное погашение | Early repayment
+Погасить | Repay
+Погасить досрочно | Repay early
+Остаток долга | Remaining debt
+Сумма долга | Debt amount
+Просрочка | Overdue
+Просрочено | Overdue
+Срок | Term
+Срок кредита | Loan term
+мес. | mo.
+месяцев | months
+Оформить | Apply
+Оформить кредит | Apply for a loan
+Получить кредит | Get a loan
+Одобрено | Approved
+Отказано | Declined
+Заявка | Application
+Заявки | Applications
+Мои заявки | My applications
+Бонусы | Bonuses (cashback)
+Kaspi Бонусы | Kaspi Bonuses (cashback)
+Бонусов | bonuses
+Потратить бонусы | Spend bonuses
+Оплатить бонусами | Pay with bonuses
+Кешбэк | Cashback
+Кэшбэк | Cashback
+Карта | Card
+Карты | Cards
+Мои карты | My cards
+Карта другого банка | Another bank's card
+Карты других банков | Other banks' cards
+Добавить карту | Add card
+Виртуальная карта | Virtual card
+Цифровая карта | Digital card
+Пластиковая карта | Physical card
+Заказать карту | Order a card
+Реквизиты | Account details
+Реквизиты карты | Card details
+Реквизиты счета | Account details
+Реквизиты счёта | Account details
+Показать реквизиты | Show details
+Скопировать | Copy
+Скопировано | Copied
+Срок действия | Expiry date
+Действует до | Valid until
+Владелец карты | Cardholder
+Заблокировать | Block
+Заблокировать карту | Block card
+Разблокировать | Unblock
+Карта заблокирована | Card blocked
+Заблокирована | Blocked
+Перевыпустить карту | Reissue card
+ПИН-код | PIN
+PIN-код | PIN
+Сменить ПИН-код | Change PIN
+Установить ПИН-код | Set PIN
+Счет | Account
+Счёт | Account
+Счета | Accounts
+Мои счета | My accounts
+Текущий счет | Current account
+Текущий счёт | Current account
+Сберегательный счет | Savings account
+Валютный счет | Foreign currency account
+Открыть счет | Open an account
+Открыть счёт | Open an account
+Закрыть счет | Close account
+Выписка | Statement
+Выписка по счету | Account statement
+Выписка по счёту | Account statement
+Справка | Certificate
+Справки | Certificates
+Справка об остатке | Balance certificate
+Получить выписку | Get statement
+Доступно | Available
+Доступный остаток | Available balance
+Остаток | Balance
+Собственные средства | Own funds
+Кредитный лимит | Credit limit
+Заблокировано | On hold
+Сумма в обработке | Pending amount
+В обработке | Processing
+Обрабатывается | Processing
+Расходы | Spending
+Доходы | Income
+Поступления | Incoming
+Пополнения | Top-ups
+Списания | Debits
+Списано | Debited
+Зачислено | Credited
+Покупки | Purchases
+Покупка | Purchase
+Снятие наличных | Cash withdrawal
+Снять наличные | Withdraw cash
+Наличные | Cash
+Внести наличные | Deposit cash
+Банкомат | ATM
+Банкоматы | ATMs
+Отделения | Branches
+Отделение | Branch
+Терминал | Terminal
+Терминалы | Terminals
+Kaspi Postomat | Kaspi Postomat (parcel locker)
+Постомат | Parcel locker
+Аналитика | Analytics
+Аналитика расходов | Spending analytics
+Категории | Categories
+Категория | Category
+За месяц | This month
+За неделю | This week
+За сегодня | Today
+Все операции | All transactions
+Операции | Transactions
+Операция | Transaction
+Детали операции | Transaction details
+Подробнее | More details
+Детали | Details
+Чек | Receipt
+Чек об оплате | Payment receipt
+Квитанция об оплате | Payment receipt
+Скачать чек | Download receipt
+Поделиться | Share
+Отправить чек | Send receipt
+Kaspi Pay | Kaspi Pay
+Kaspi Pay для бизнеса | Kaspi Pay for business
+Kaspi Бизнес | Kaspi Business
+Kasper | Kasper (AI assistant)
+# --- Statuses & generic buttons ---
+Подтвердить | Confirm
+Подтверждение | Confirmation
+Подтвердите | Confirm
+Отмена | Cancel
+Отменить | Cancel
+Отменено | Cancelled
+Отклонено | Declined
+Готово | Done
+Далее | Next
+Продолжить | Continue
+Назад | Back
+Закрыть | Close
+Сохранить | Save
+Сохранено | Saved
+Изменить | Edit
+Редактировать | Edit
+Удалить | Delete
+Добавить | Add
+Выбрать | Select
+Выберите | Choose
+Выбрано | Selected
+Применить | Apply
+Сбросить | Reset
+Очистить | Clear
+Отправить | Send
+Получить | Get
+Принять | Accept
+Согласен | I agree
+Я согласен | I agree
+Соглашаюсь | I agree
+Да | Yes
+Нет | No
+ОК | OK
+Ок | OK
+Понятно | Got it
+Хорошо | OK
+Попробовать снова | Try again
+Повторите попытку | Please try again
+Обновить | Refresh
+Загрузка | Loading
+Загрузка... | Loading…
+Подождите | Please wait
+Пожалуйста, подождите | Please wait
+Успешно | Success
+Выполнено | Completed
+Ошибка | Error
+Произошла ошибка | An error occurred
+Что-то пошло не так | Something went wrong
+Нет соединения | No connection
+Нет подключения к интернету | No internet connection
+Недостаточно средств | Insufficient funds
+Неверный код | Wrong code
+Неверный пароль | Wrong password
+Не найдено | Not found
+Ничего не найдено | Nothing found
+Пусто | Empty
+Все | All
+Показать все | Show all
+Посмотреть все | See all
+Смотреть все | See all
+Скрыть | Hide
+Показать | Show
+Открыть | Open
+Новое | New
+Новинка | New
+Новые | New
+Активно | Active
+Активна | Active
+Неактивна | Inactive
+Подключено | Enabled
+Подключить | Enable
+Отключить | Disable
+Включить | Turn on
+Выключить | Turn off
+Включено | On
+Выключено | Off
+Сегодня | Today
+Вчера | Yesterday
+Завтра | Tomorrow
+Дата | Date
+Время | Time
+Период | Period
+Статус | Status
+Тип | Type
+Описание | Description
+Условия | Terms
+Условия и тарифы | Terms & fees
+Тарифы | Fees
+Правила | Rules
+Документы | Documents
+Договор | Contract
+Подписать | Sign
+Подписать договор | Sign the contract
+Помощь | Help
+Поддержка | Support
+Служба поддержки | Customer support
+Написать в чат | Chat with us
+Чат | Chat
+Позвонить | Call
+Вопросы и ответы | FAQ
+Частые вопросы | FAQ
+О приложении | About the app
+Версия | Version
+Обратная связь | Feedback
+Оценить приложение | Rate the app
+# --- Security / login ---
+Код доступа | Access code (PIN)
+Введите код доступа | Enter access code
+Придумайте код доступа | Create an access code
+Повторите код доступа | Repeat access code
+Забыли код? | Forgot code?
+Забыли код доступа? | Forgot access code?
+Забыли пароль? | Forgot password?
+Пароль | Password
+Код | Code
+Код из SMS | SMS code
+Введите код из SMS | Enter the SMS code
+Отправить код повторно | Resend code
+Отправить код еще раз | Resend code
+Отправить код ещё раз | Resend code
+Получить код | Get code
+Мы отправили код | We sent a code
+Face ID | Face ID
+Touch ID | Touch ID
+Вход по Face ID | Sign in with Face ID
+Использовать Face ID | Use Face ID
+Фотоверификация | Photo verification
+Пройти фотоверификацию | Do photo verification
+Сделайте селфи | Take a selfie
+Безопасность | Security
+Выйти | Sign out
+Выход | Sign out
+Выйти из приложения | Sign out
+Сменить номер | Change number
+Сменить номер телефона | Change phone number
+Снимок экрана недоступен | Screenshot unavailable
+Выключите запись экрана | Turn off screen recording
+Ваш телефон не соответствует требованиям безопасности | Phone fails security requirements
+Мошенники | Fraudsters
+Осторожно, мошенники | Beware of fraudsters
+Никому не сообщайте код | Never share the code
+Никому не сообщайте этот код | Never share this code
+Устройства | Devices
+Мои устройства | My devices
+Доверенные устройства | Trusted devices
+# --- Shop / marketplace ---
+Каталог | Catalog
+Категории товаров | Product categories
+Товары | Products
+Товар | Product
+Купить | Buy
+Купить сейчас | Buy now
+В корзину | Add to cart
+Добавить в корзину | Add to cart
+В корзине | In cart
+Перейти в корзину | Go to cart
+Оформить заказ | Checkout
+Оформление заказа | Checkout
+Заказ | Order
+Заказ оформлен | Order placed
+Номер заказа | Order number
+Статус заказа | Order status
+Отменить заказ | Cancel order
+Отслеживать | Track
+Отследить заказ | Track order
+Доставка | Delivery
+Бесплатная доставка | Free delivery
+Доставка курьером | Courier delivery
+Самовывоз | Pickup
+Пункт выдачи | Pickup point
+Пункты выдачи | Pickup points
+Адрес доставки | Delivery address
+Адрес | Address
+Город | City
+Улица | Street
+Дом | Building
+Квартира | Apartment
+Подъезд | Entrance
+Этаж | Floor
+Домофон | Intercom
+Дата доставки | Delivery date
+Доставим | Delivery
+Доставлен | Delivered
+Доставлено | Delivered
+Передан в доставку | Out for delivery
+В пути | In transit
+Ожидает выдачи | Ready for pickup
+Готов к выдаче | Ready for pickup
+Получен | Received
+Возврат | Return
+Возвраты | Returns
+Оформить возврат | Request a return
+Вернуть товар | Return item
+Возврат денег | Refund
+Продавец | Seller
+Продавцы | Sellers
+Магазины | Stores
+Цена | Price
+Цены | Prices
+Цена от | Price from
+Скидка | Discount
+Скидки | Discounts
+Распродажа | Sale
+Хиты продаж | Bestsellers
+Популярное | Popular
+Популярные | Popular
+Рекомендуем | Recommended
+Рекомендации | Recommendations
+Вы смотрели | Recently viewed
+Похожие товары | Similar products
+В наличии | In stock
+Нет в наличии | Out of stock
+Отзывы | Reviews
+Отзыв | Review
+Оставить отзыв | Write a review
+Рейтинг | Rating
+Оценка | Rating
+Характеристики | Specifications
+Описание товара | Product description
+Фильтры | Filters
+Фильтр | Filter
+Сортировка | Sort
+Сортировать | Sort
+По популярности | By popularity
+Сначала дешевые | Cheapest first
+Сначала дешёвые | Cheapest first
+Сначала дорогие | Most expensive first
+По рейтингу | By rating
+По новизне | Newest
+Бренд | Brand
+Бренды | Brands
+Цвет | Color
+Размер | Size
+Количество | Quantity
+шт. | pcs.
+Гарантия | Warranty
+Сравнить | Compare
+Сравнение | Comparison
+В избранное | Add to favorites
+Добавить в избранное | Add to favorites
+Промокод | Promo code
+Ввести промокод | Enter promo code
+Способ оплаты | Payment method
+Способ доставки | Delivery method
+Оплата при получении | Pay on delivery
+Kaspi Магазин | Kaspi Shop
+Электроника | Electronics
+Смартфоны и гаджеты | Phones & gadgets
+Телефоны и гаджеты | Phones & gadgets
+Смартфоны | Smartphones
+Бытовая техника | Home appliances
+ТВ, Аудио, Видео | TV, Audio, Video
+Компьютеры | Computers
+Мебель | Furniture
+Красота и здоровье | Beauty & health
+Детские товары | Kids' products
+Аптека | Pharmacy
+Продукты питания | Groceries
+Продукты | Groceries
+Одежда | Clothing
+Обувь | Shoes
+Аксессуары | Accessories
+Украшения | Jewelry
+Спорт, туризм | Sports & outdoors
+Спорт и туризм | Sports & outdoors
+Строительство, ремонт | Construction & repair
+Строительство и ремонт | Construction & repair
+Товары для дома и дачи | Home & garden
+Дом и дача | Home & garden
+Автотовары | Car products
+Досуг, книги | Leisure & books
+Книги | Books
+Подарки, товары для праздников | Gifts & party supplies
+Подарки | Gifts
+Товары для животных | Pet supplies
+Канцелярские товары | Stationery
+Kaspi Продукты | Kaspi Groceries
+Kaspi Аптека | Kaspi Pharmacy
+# --- Travel ---
+Авиабилеты | Flights
+Ж/д билеты | Train tickets
+ЖД билеты | Train tickets
+Железнодорожные билеты | Train tickets
+Туры | Tours
+Отели | Hotels
+Автобусы | Buses
+Откуда | From
+Куда | To
+Туда | Departure
+Обратно | Return
+Дата вылета | Departure date
+Дата отправления | Departure date
+Пассажиры | Passengers
+Пассажир | Passenger
+Взрослый | Adult
+Ребенок | Child
+Ребёнок | Child
+Найти билеты | Find tickets
+Найти | Find
+Мои билеты | My tickets
+Эконом | Economy
+Бизнес | Business
+Прямой рейс | Direct flight
+Без пересадок | Non-stop
+Пересадка | Layover
+Багаж | Baggage
+Ручная кладь | Carry-on
+Место | Seat
+Вагон | Train car
+Купе | Compartment
+Плацкарт | Open sleeper
+# --- Government services ---
+Цифровые документы | Digital documents
+Электронное правительство | eGov
+Получить справку | Get a certificate
+Справка о несудимости | Criminal record certificate
+Адресная справка | Address certificate
+Регистрация по месту жительства | Residence registration
+Пособия | Benefits
+Пенсия | Pension
+Выплаты | Payouts
+Регистрация ИП | Register a sole proprietor (IP)
+ИП | Sole proprietor (IP)
+Регистрация автомобиля | Car registration
+# --- Classifieds / promotions ---
+Подать объявление | Post a listing
+Мои объявления | My listings
+Объявление | Listing
+Акция | Promotion
+Участвовать | Participate
+Подробнее об акции | Promotion details
+До | Until
+Осталось | Left
+Действует | Valid
+# --- Common words used alone ---
+Тенге | Tenge
+тенге | tenge
+Рубль | Ruble
+Доллар | Dollar
+Евро | Euro
+Имя | First name
+Фамилия | Last name
+Отчество | Patronymic
+ФИО | Full name
+Дата рождения | Date of birth
+Электронная почта | Email
+Почта | Email
+Телефон | Phone
+Мобильный телефон | Mobile phone
+Понедельник | Monday
+Вторник | Tuesday
+Среда | Wednesday
+Четверг | Thursday
+Пятница | Friday
+Суббота | Saturday
+Воскресенье | Sunday
+января | Jan
+февраля | Feb
+марта | Mar
+апреля | Apr
+мая | May
+июня | Jun
+июля | Jul
+августа | Aug
+сентября | Sep
+октября | Oct
+ноября | Nov
+декабря | Dec
+Январь | January
+Февраль | February
+Март | March
+Апрель | April
+Май | May
+Июнь | June
+Июль | July
+Август | August
+Сентябрь | September
+Октябрь | October
+Ноябрь | November
+Декабрь | December

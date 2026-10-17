@@ -1,0 +1,56 @@
+name: Build & Release
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Toolchain
+        run: |
+          sw_vers
+          xcodebuild -version
+          swift --version
+
+      - name: Build universal app, ad-hoc sign, package
+        run: |
+          if [[ "$GITHUB_REF" == refs/tags/v* ]]; then V="${GITHUB_REF_NAME#v}"; else V="0.0.0-dev"; fi
+          scripts/build-app.sh "$V"
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: kaspi-in-english
+          path: |
+            dist/*.zip
+            dist/*.dmg
+            dist/SHA256SUMS.txt
+
+      - name: Publish GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="$GITHUB_REF_NAME"
+          NOTES="Unofficial, free and open-source helper that shows English labels over the Kaspi.kz app in macOS iPhone Mirroring. Not affiliated with Kaspi.kz.
+
+          **Download** the .dmg (or .zip), drag the app to Applications, then follow the install steps in the README (the app is ad-hoc signed, so macOS will warn the first time):
+          https://github.com/${GITHUB_REPOSITORY}#install
+
+          Requires macOS 15 (Sequoia) or newer. Universal: Apple silicon + Intel."
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" dist/*.zip dist/*.dmg dist/SHA256SUMS.txt --clobber
+          else
+            gh release create "$TAG" dist/*.zip dist/*.dmg dist/SHA256SUMS.txt \
+              --title "Kaspi in English $TAG" --notes "$NOTES"
+          fi
